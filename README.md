@@ -1,2 +1,2 @@
 # webdev1
-A simple repo for basic webdev crap
+A simple repo for basic noob webdev crap
