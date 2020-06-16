@@ -1,0 +1,13 @@
+/*Test stylesheet for messing around*/
+
+h1 {
+    color: red;
+}
+
+p {
+    color: green;
+}
+
+li {
+    list-style-type: square;
+}
