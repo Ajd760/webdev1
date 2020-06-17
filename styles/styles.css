@@ -60,4 +60,8 @@
         
         li {
             list-style-type: square;
-        }
+		}
+		
+		a:hover {
+			text-decoration: none;
+		}
