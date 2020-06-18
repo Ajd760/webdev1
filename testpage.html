@@ -26,8 +26,15 @@ and also a <a href="http://example.com">link</a>.</p>
     <p>Now for some fun with div boxes</p>
     <div class="boxborder"><div class="box1">This should be a (90% - 50 pixels) filled box</div></div>
 
-    <h3>And here's a button. Enjoy</h3>
-    <button>Click me</button>
+    <h2>Number Guessing Game!</h2>
+    <p>Guess teh number in 10 or less tries. After each guess, we will tell you if your guess was too high or too low. The number will be between 1 and 100. Good luck!</p>
+    <div id="gameDiv" class="resultParagraphs">
+        <label for="guessField">Enter a guess: </label><input type="text" id="guessField" class="guessField">
+        <input type="submit" value="Submit Guess" class="guessSubmit">
+        <p class="guesslist"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHigh"></p>
+    </div>
 
 <footer>
     <a href="index.html">Return to Index</a>
